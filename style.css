@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    padding-block: 8px;
+    background-color: rgba(156, 16, 16, 0.533);
+    display: flex;
+    justify-content: center;
+}
+
+.galeria {
+    position: relative;
+    display:columns;
+    columns: 3;
+    padding-block: 8px;
+}
+
+.container-img {
+    width: 100%;
+    position: relative;
+
+}
+
+.galeria img {
+    width: 100%;
+    padding-block: 8px;
+
+}
+.galeria div{
+    position: relative;
+}
+
+div{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 15px;
+    background-color: rgba(156, 16, 16, 0.533);
+    font-size: 1.5rem;
+    color: azure;
+}
+
+
+/* ::after adiciona um elemento visual após o html ser carregado */
